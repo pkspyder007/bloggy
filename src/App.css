@@ -1,3 +1,4 @@
+/* Home */
 .home {
   display: flex;
   flex-direction: column;
@@ -22,8 +23,30 @@
   align-items: center;
 }
 
+/* Blog */
 .blog-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+/* Login form */
+.login-form {
+  margin: 25vh auto;
+  width: 400px;
+}
+
+.login-form h1 {
+  text-align: center;
+}
+
+/* Signup form */
+.signup-form {
+  margin: 50px auto;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.signup-form h1 {
+  text-align: center;
 }
