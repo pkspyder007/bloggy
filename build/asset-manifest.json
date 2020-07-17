@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bloggy/static/css/main.68df3c9f.chunk.css",
+    "main.js": "/bloggy/static/js/main.722ee6ec.chunk.js",
+    "main.js.map": "/bloggy/static/js/main.722ee6ec.chunk.js.map",
+    "runtime-main.js": "/bloggy/static/js/runtime-main.1a49acee.js",
+    "runtime-main.js.map": "/bloggy/static/js/runtime-main.1a49acee.js.map",
+    "static/css/2.4c4477be.chunk.css": "/bloggy/static/css/2.4c4477be.chunk.css",
+    "static/js/2.84a8a75c.chunk.js": "/bloggy/static/js/2.84a8a75c.chunk.js",
+    "static/js/2.84a8a75c.chunk.js.map": "/bloggy/static/js/2.84a8a75c.chunk.js.map",
+    "index.html": "/bloggy/index.html",
+    "precache-manifest.470dddd2cf98742598e9a49adc14b0ac.js": "/bloggy/precache-manifest.470dddd2cf98742598e9a49adc14b0ac.js",
+    "service-worker.js": "/bloggy/service-worker.js",
+    "static/css/2.4c4477be.chunk.css.map": "/bloggy/static/css/2.4c4477be.chunk.css.map",
+    "static/css/main.68df3c9f.chunk.css.map": "/bloggy/static/css/main.68df3c9f.chunk.css.map",
+    "static/js/2.84a8a75c.chunk.js.LICENSE.txt": "/bloggy/static/js/2.84a8a75c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bloggy/static/media/hero1.51be8bb8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a49acee.js",
+    "static/css/2.4c4477be.chunk.css",
+    "static/js/2.84a8a75c.chunk.js",
+    "static/css/main.68df3c9f.chunk.css",
+    "static/js/main.722ee6ec.chunk.js"
+  ]
+}
