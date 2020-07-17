@@ -1,5 +1,4 @@
 import React from "react";
-import {Redirect} from 'react-router-dom'
 import { Form, Input, Button, Checkbox, Typography,notification } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
 
@@ -13,13 +12,18 @@ const openNotificationWithIcon = (type, msg, desc) => {
   });
 };
 
-const Login = () => {
+const Login = (props) => {
   const onFinish = (values) => {
     // console.log("Received values of form: ", values);
     const {username, password} = values;
-    if(username=='admin' && password=='password') {
-      return window.location.replace('/admin');
-    } else {
+    if(username==='admin' && password==='password') {
+      return props.history.push('/admin')
+      // return window.location.replace('/admin');
+    } else if (username==='user' && password==='password') {
+      return props.history.push('/user')
+      // return window.location.replace('/user');
+    }  
+    else {
       openNotificationWithIcon('error', 'Invalid Credentials', 'Please check your email and password.');
     }
   };
@@ -69,7 +73,7 @@ const Login = () => {
             <Checkbox>Remember me</Checkbox>
           </Form.Item>
 
-          <a className="login-form-forgot" href="">
+          <a className="login-form-forgot" href="/test">
             Forgot password
           </a>
         </Form.Item>
@@ -82,7 +86,7 @@ const Login = () => {
           >
             Log in
           </Button>
-          &nbsp; Or <a href="">register now!</a>
+          &nbsp; Or <a href="/test">register now!</a>
         </Form.Item>
       </Form>
     </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Menu } from 'antd';
 import { HomeOutlined, FileDoneOutlined, UserOutlined, UserAddOutlined, UnlockOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom';
 import './navbar.css';

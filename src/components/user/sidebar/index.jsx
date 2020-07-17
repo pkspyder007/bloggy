@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {Menu, Layout} from 'antd'
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 import './usersidebar.css'
@@ -17,8 +18,8 @@ export default function UserSidebar() {
           style={{ height: '100%', borderRight: 0 }}
         >
           <SubMenu key="sub1" icon={<UserOutlined />} title="Posts">
-            <Menu.Item key="1">All Posts</Menu.Item>
-            <Menu.Item key="2">New Posts</Menu.Item>
+            <Menu.Item key="1"><Link to="/user">All Posts</Link></Menu.Item>
+            <Menu.Item key="2"><Link to="/user/post/new">New Posts</Link></Menu.Item>
             <Menu.Item key="3">Edit Post</Menu.Item>
           </SubMenu>
           <SubMenu key="sub2" icon={<LaptopOutlined />} title="Comments">

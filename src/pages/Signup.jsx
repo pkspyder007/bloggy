@@ -3,10 +3,7 @@ import {
   Form,
   Input,
   Tooltip,
-  Cascader,
   Select,
-  Row,
-  Col,
   Checkbox,
   Button,
   AutoComplete,
@@ -15,42 +12,6 @@ import {
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
 const { Option } = Select;
-const AutoCompleteOption = AutoComplete.Option;
-
-const residences = [
-  {
-    value: 'zhejiang',
-    label: 'Zhejiang',
-    children: [
-      {
-        value: 'hangzhou',
-        label: 'Hangzhou',
-        children: [
-          {
-            value: 'xihu',
-            label: 'West Lake',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    value: 'jiangsu',
-    label: 'Jiangsu',
-    children: [
-      {
-        value: 'nanjing',
-        label: 'Nanjing',
-        children: [
-          {
-            value: 'zhonghuamen',
-            label: 'Zhong Hua Men',
-          },
-        ],
-      },
-    ],
-  },
-];
 
 const formItemLayout = {
   labelCol: {
@@ -226,7 +187,7 @@ const Signup = () => {
         {...tailFormItemLayout}
       >
         <Checkbox>
-          I have read the <a href="">agreement</a>
+          I have read the <a href="/test">agreement</a>
         </Checkbox>
       </Form.Item>
       <Form.Item {...tailFormItemLayout}>

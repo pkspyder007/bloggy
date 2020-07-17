@@ -6,7 +6,7 @@ import image from '../../images/hero1.jpg';
 export default function Post() {
   return (
     <div className="post-container">
-      <img src={image} alt="post featured image" className="post-image"/>
+      <img src={image} alt="post featured" className="post-image"/>
       <div className="post-title">Post Title</div>
       <div className="post-info">Author: Anonymous, Date: 19/07/2020</div>
       <div className="post-content">

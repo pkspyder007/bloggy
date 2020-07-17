@@ -33,7 +33,7 @@
 /* Login form */
 .login-form {
   margin: 25vh auto;
-  width: 400px;
+  width: 60vw;
 }
 
 .login-form h1 {
@@ -43,8 +43,8 @@
 /* Signup form */
 .signup-form {
   margin: 50px auto;
-  min-width: 400px;
-  max-width: 600px;
+  min-width: 40vw;
+  max-width: 80vw;
 }
 
 .signup-form h1 {

@@ -3,8 +3,6 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 import {
   DesktopOutlined,
   PieChartOutlined,
-  FileOutlined,
-  TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons';
 import UserTable from '../components/admin/usertable';

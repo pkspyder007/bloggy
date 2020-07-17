@@ -3,11 +3,8 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 import {
   DesktopOutlined,
   PieChartOutlined,
-  FileOutlined,
-  TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import UserTable from '../components/admin/usertable';
 import Posts from '../components/admin/posts/Posts';
 
 const { Header, Content, Sider } = Layout;

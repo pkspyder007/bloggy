@@ -6,7 +6,7 @@ const columns = [
     title: 'TItle',
     dataIndex: 'title',
     key: 'title',
-    render: text => <a>{text}</a>,
+    render: text => <a href="/test">{text}</a>,
   },
   {
     title: 'Author',
@@ -43,8 +43,8 @@ const columns = [
     key: 'action',
     render: (text, record) => (
       <Space size="middle">
-        <a>Verify {record.name}</a>
-        <a>Delete</a>
+        <a href="/test">Verify {record.name}</a>
+        <a href="/test">Delete</a>
       </Space>
     ),
   },
