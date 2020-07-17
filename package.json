@@ -1,6 +1,5 @@
 {
   "name": "blog",
-  "homepage": "https://pkspyder007.github.io/bloggy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
