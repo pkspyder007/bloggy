@@ -18,7 +18,7 @@ export default function UserSidebar() {
           style={{ height: '100%', borderRight: 0 }}
         >
           <SubMenu key="sub1" icon={<UserOutlined />} title="Posts">
-            <Menu.Item key="1"><Link to="/user">All Posts</Link></Menu.Item>
+            <Menu.Item key="1"><Link to="/user/post/all">All Posts</Link></Menu.Item>
             <Menu.Item key="2"><Link to="/user/post/new">New Posts</Link></Menu.Item>
             <Menu.Item key="3">Edit Post</Menu.Item>
           </SubMenu>

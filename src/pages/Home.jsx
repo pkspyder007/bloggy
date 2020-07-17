@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Button} from 'antd'
+import { Typography} from 'antd'
 import BlogCard from '../components/blogcard'
 
 const {Title} = Typography;
@@ -16,15 +16,16 @@ export default function Home() {
           <BlogCard />
           <BlogCard />
           <BlogCard />
-        <Button type="ghost">Load More ..</Button>
+          <BlogCard />
+          <BlogCard />
+        {/* <Button type="ghost">Load More ..</Button> */}
         </div>
         <Title style={{textAlign:'center'}} type="secondary">Featured Posts</Title>
         <div className="recents">
           <BlogCard />
           <BlogCard />
           <BlogCard />
-          <BlogCard />
-        <Button type="ghost">Load More ..</Button>
+        {/* <Button type="ghost">Load More ..</Button> */}
         </div>
         </div>
     </>

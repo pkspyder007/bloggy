@@ -29,7 +29,7 @@ const Login = (props) => {
   };
 
   return (
-    <div className="login-form">
+    <div className="login-form" style={{margin: '21vh 20vw'}}>
       <Form
         name="normal_login"
         className="login-form"
