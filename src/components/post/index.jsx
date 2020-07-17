@@ -1,7 +1,7 @@
 import React from 'react'
 import './post.css';
 
-import image from '../../images/hero1.jpg';
+import image from '../../images/bg.jpg';
 
 export default function Post() {
   return (
