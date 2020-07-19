@@ -14,6 +14,9 @@ import UserDashboard from "./pages/UserDashboard";
 import UserPosts from "./pages/UserPosts";
 
 import "./App.css";
+import UserProfile from "./pages/UserProfile";
+import UserUpdate from "./pages/UserUpdate";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -22,9 +25,16 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/blog" exact={true} component={Blog} />
+        <Route path="/about" exact={true} component={About} />
         <Route path="/user" exact={true} component={UserDashboard} />
         <Route path="/user/post/new" exact={true} component={NewPost} />
         <Route path="/user/post/all" exact={true} component={UserPosts} />
+        <Route path="/user/profile/" exact={true} component={UserProfile} />
+        <Route
+          path="/user/profile/update"
+          exact={true}
+          component={UserUpdate}
+        />
         <Route path="/admin" exact={true} component={Admin} />
         <Route path="/admin/posts" exact={true} component={AdminPosts} />
         <Route path="/blog/post1" exact={true} component={Post} />

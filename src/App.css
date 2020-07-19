@@ -20,6 +20,49 @@ body {
   height: 92vh;
 }
 
+/* about */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/bg.jpg');
+  background-size: cover;
+  height: 40vh;
+}
+
+.about h1    {
+  color: white;
+}
+
+.r {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.r p {
+  font-size: 1.2rem;
+}
+
+.images h2 {
+  font-size: 2.5rem;
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img {
+  max-width: 50%;
+  padding: 24px;
+}
+
 .home h1 {
   color: white;
   margin: auto;
@@ -53,7 +96,7 @@ body {
 
 /* Signup form */
 .signup-form {
-  margin: 50px auto 50px 10vw;
+  margin: 50px auto 50px auto;
   min-width: 40vw;
   max-width: 80vw;
 }

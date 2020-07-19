@@ -2,10 +2,10 @@ import React from 'react'
 import './cards.css';
 import { Link } from 'react-router-dom';
 
-export default function BlogCard() {
+export default function BlogCard({title, sub, img}) {
   return (
   <div className="example-2 card">
-    <div className="wrapper">
+    <div className="wrapper" style={{background: `url(${img}) 20% 1%/cover no-repeat`}}>
       <div className="header">
         <div className="date">
           <span className="day">12</span>
@@ -23,8 +23,8 @@ export default function BlogCard() {
       <div className="data">
         <div className="content">
           <span className="author">Jane Doe</span>
-          <h1 className="title"><Link to="/blog/post1">Stranger Things: The sound of the Upside Down</Link></h1>
-          <p className="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+          <h1 className="title"><Link to="/blog/post1">{title}</Link></h1>
+          <p className="text">{sub}</p>
           <Link to="/blog/post1" className="button">Read more</Link>
         </div>
       </div>

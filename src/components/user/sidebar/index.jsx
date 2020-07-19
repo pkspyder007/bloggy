@@ -13,8 +13,8 @@ export default function UserSidebar() {
        <Sider width={200} className="site-layout-background">
         <Menu
           mode="inline"
-          defaultSelectedKeys={['1']}
-          defaultOpenKeys={['sub1']}
+          // defaultSelectedKeys={['1']}
+          defaultOpenKeys={['sub1','sub2','sub3']}
           style={{ height: '100%', borderRight: 0 }}
         >
           <SubMenu key="sub1" icon={<UserOutlined />} title="Posts">
@@ -28,9 +28,9 @@ export default function UserSidebar() {
             <Menu.Item key="7">Verify Comments</Menu.Item>
           </SubMenu>
           <SubMenu key="sub3" icon={<NotificationOutlined />} title="Profile">
-            <Menu.Item key="9">Upadte</Menu.Item>
-            <Menu.Item key="10">View</Menu.Item>
-            <Menu.Item key="11">Analytics</Menu.Item>
+            <Menu.Item key="10"><Link to="/user/profile/">View</Link></Menu.Item>
+            <Menu.Item key="9"><Link to="/user/profile/update">Update</Link></Menu.Item>
+            {/* <Menu.Item key="11"><Link to="/user/profile/friends">Friends</Link></Menu.Item> */}
           </SubMenu>
         </Menu>
       </Sider>
