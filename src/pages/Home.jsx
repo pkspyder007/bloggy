@@ -18,27 +18,6 @@ export default function Home() {
   return (
     <>
     <div className="container">
-      {/* <div className="home">
-        <h1>Welcome to Bloggy</h1>
-      </div> */}
-
-  <>
-    <Divider orientation="center"><Typography.Title>Categories</Typography.Title></Divider>
-    <Divider orientation="center">
-    <div>
-      <Tag color="magenta">React</Tag>
-      <Tag color="red">Angular</Tag>
-      <Tag color="volcano">Node</Tag>
-      <Tag color="orange">ES6</Tag>
-      <Tag color="gold">Vue</Tag>
-      <Tag color="lime">Ember</Tag>
-      <Tag color="green">JAvaScript</Tag>
-      <Tag color="cyan">Latest</Tag>
-      <Tag color="blue">Tech</Tag>
-      <Tag color="geekblue">Awesome</Tag>
-    </div>
-    </Divider>
-    </>
     <br/>
     <br/>
     <Typography.Title style={{textAlign:'center'}}>Recent Posts</Typography.Title>
